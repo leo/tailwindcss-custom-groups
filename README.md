@@ -6,7 +6,7 @@ The plugin right here lets you generate custom group utilities in the form of `g
 
 ## Use Cases
 
-In most scenarios, the default `group-` utility works just fine. As your application grows in complexity, however, you might find yourself looking for solutions to needs such as:
+In most scenarios, the default `group-` utility works just fine. As your app grows in complexity, however, you might find yourself looking for solutions to needs such as:
 
 - Nesting several `group-` utilities
 - Styling depending on a particular parent further up in the tree, not just the closest `group-` user
@@ -40,7 +40,7 @@ plugins: [
 
 To avoid too much CSS being generated, every new `group-*-` utility only supports a [small list](https://github.com/leo/tailwindcss-custom-groups/blob/734ba18083d9b6f08e57ba58d1ab4ca353915a98/index.js#L5-L10) of pseudo-classes.
 
-If you'd like to generate additional ones, you can pass them as `customGroups.variants`:
+If you'd like to generate different ones, you can replace the defaults with `customGroups.variants`:
 
 ```javascript
 variants: {
