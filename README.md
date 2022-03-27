@@ -19,7 +19,7 @@ If so, this plugin will help you.
 First, install the plugin:
 
 ```bash
-npm install tailwindcss-custom-groups
+npm install tailwindcss-custom-groups --save-dev
 ```
 
 Then add the plugin to your [TailwindCSS config file](https://tailwindcss.com/docs/configuration):
