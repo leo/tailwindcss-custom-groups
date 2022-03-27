@@ -1,0 +1,25 @@
+{
+  "name": "tailwindcss-custom-groups",
+  "version": "1.0.0",
+  "description": "Generate custom `group-` utilities for TailwindCSS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leo/tailwindcss-custom-groups.git"
+  },
+  "keywords": [
+    "tailwindcss",
+    "named",
+    "groups",
+    "nested"
+  ],
+  "author": "leo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leo/tailwindcss-custom-groups/issues"
+  },
+  "homepage": "https://github.com/leo/tailwindcss-custom-groups#readme"
+}
