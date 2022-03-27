@@ -1,6 +1,6 @@
 {
   "name": "tailwindcss-custom-groups",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Generate custom `group-` utilities for TailwindCSS",
   "main": "index.js",
   "scripts": {
