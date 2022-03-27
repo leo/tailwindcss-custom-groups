@@ -4,7 +4,11 @@
   "description": "Generate custom `group-` utilities for TailwindCSS",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
   },
   "repository": {
     "type": "git",
@@ -21,5 +25,10 @@
   "bugs": {
     "url": "https://github.com/leo/tailwindcss-custom-groups/issues"
   },
-  "homepage": "https://github.com/leo/tailwindcss-custom-groups#readme"
+  "homepage": "https://github.com/leo/tailwindcss-custom-groups#readme",
+  "devDependencies": {
+    "husky": "7.0.4",
+    "lint-staged": "12.3.7",
+    "prettier": "2.6.1"
+  }
 }
