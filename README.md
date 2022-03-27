@@ -1,6 +1,6 @@
 # tailwindcss-custom-groups
 
-By default, [TailwindCSS](https://tailwindcss.com/) comes with a `group-` utility [used](https://tailwindcss.com/docs/hover-focus-and-other-states) for styling elements depending on the state of their parents.
+Out of the box, [TailwindCSS](https://tailwindcss.com/) comes with a `group-` utility that's [used](https://tailwindcss.com/docs/hover-focus-and-other-states) for styling elements depending on the state of their parents.
 
 The plugin right here lets you generate custom group utilities in the form of `group-*-`, where `*` represents an arbitray name.
 
@@ -50,4 +50,4 @@ variants: {
 
 ## Credits
 
-The package is based on [this comment](https://github.com/tailwindlabs/tailwindcss/issues/1192#issuecomment-1069149920) by @maelquerre, with various additions by @leo.
+The package is based on [this comment](https://github.com/tailwindlabs/tailwindcss/issues/1192#issuecomment-1069149920) by [@maelquerre](https://github.com/maelquerre), with various additions by [@leo](https://github.com/leo).
