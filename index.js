@@ -1,3 +1,5 @@
+const plugin = require("tailwindcss/plugin");
+
 const getError = (message) => {
   return `\`tailwindcss-custom-groups\` requires ${message}.`;
 };
