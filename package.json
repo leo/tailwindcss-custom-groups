@@ -27,6 +27,7 @@
   },
   "homepage": "https://github.com/leo/tailwindcss-custom-groups#readme",
   "devDependencies": {
+    "@types/node": "17.0.23",
     "husky": "7.0.4",
     "lint-staged": "12.3.7",
     "prettier": "2.6.1",
