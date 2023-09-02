@@ -1,6 +1,9 @@
 # tailwindcss-custom-groups
 
-Out of the box, [TailwindCSS](https://tailwindcss.com/) comes with a `group-` utility that's [used](https://tailwindcss.com/docs/hover-focus-and-other-states) for styling elements depending on the state of their parents.
+> [!IMPORTANT]
+> As of [version 3.2](https://tailwindcss.com/blog/tailwindcss-v3-2#nested-group-and-multiple-peer-support-using-variant-modifiers), Tailwind CSS now offers [named groups](https://tailwindcss.com/docs/hover-focus-and-other-states#differentiating-nested-groups) natively.
+
+Out of the box, [Tailwind CSS](https://tailwindcss.com/) comes with a `group-` utility that's [used](https://tailwindcss.com/docs/hover-focus-and-other-states) for styling elements depending on the state of their parents.
 
 The plugin right here lets you generate custom group utilities in the form of `group-*-`, where `*` represents an arbitray name.
 
@@ -22,7 +25,7 @@ First, install the plugin:
 npm install tailwindcss-custom-groups --save-dev
 ```
 
-Then add the plugin to your [TailwindCSS config file](https://tailwindcss.com/docs/configuration):
+Then add the plugin to your [Tailwind CSS config file](https://tailwindcss.com/docs/configuration):
 
 ```javascript
 theme: {
